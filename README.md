@@ -6,11 +6,18 @@ A customized boilerplate Google Chrome extension created via Extensionizr.
 
 ## How to use?
 
+### In the terminal:
+
 1. Clone down the repo
-2. Enter `chrome://extensions` in the omnibar
-3. Turn on the `Developer mode` toggle at the top right of the page
-4. Click the `Load unpacked` button
-5. Play around, and explore!
+2. `cd` into the folder and run `npm install`
+
+## In Chrome:
+
+1. Enter `chrome://extensions` in the omnibar
+2. Turn on the `Developer mode` toggle at the top right of the page
+3. Click the `Load unpacked` button
+4. Navigate to the folder of the repo and click `Select folder`
+5. Play around, explore, and enjoy!
 
 ## Credits
 
