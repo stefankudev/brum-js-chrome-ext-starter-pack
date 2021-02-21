@@ -9,12 +9,15 @@
   "keywords": [
     "chrome",
     "extension",
-    "starter kit",
+    "starter kit"
   ],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/stefankudev/brum-js-chrome-ext-starter-pack/issues"
   },
-  "homepage": "https://github.com/stefankudev/brum-js-chrome-ext-starter-pack#readme"
+  "homepage": "https://github.com/stefankudev/brum-js-chrome-ext-starter-pack#readme",
+  "dependencies": {
+    "crx-hotreload": "^1.0.6"
+  }
 }
