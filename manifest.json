@@ -11,11 +11,10 @@
   },
   "background": {
     "page": "src/bg/background.html",
-    
     "persistent": true
   },
   "options_page": "src/options_custom/index.html",
-  "page_action": {
+  "browser_action": {
     "default_icon": "icons/icon19.png",
     "default_title": "Open the Brum.js Extension Popup",
     "default_popup": "src/popup/popup.html"
@@ -23,10 +22,10 @@
   "permissions": [
     "notifications",
     "tabs",
+    "storage",
     "<all_urls>",
-        "storage",
-        "http://*/*",
-        "https://*/*"
+    "http://*/*",
+    "https://*/*"
   ],
   "content_scripts": [
     {
@@ -38,7 +37,8 @@
       ],
       "js": [
         "src/inject/google/google.js"
-      ]
+      ],
+      "run_at": "document_end"
     }
   ],
   "web_accessible_resources": [

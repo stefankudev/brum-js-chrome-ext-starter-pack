@@ -8,24 +8,38 @@ body {
 }
 
 h1 {
+  color: black !important;
+  font-size: 4em;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+  background: #ffdd00;
+  padding: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: white;
   text-align: center;
-  font-size: 4em;
 }
 
 button {
   outline: none !important;
   padding: 1rem;
+  margin: 0.5rem;
   font-size: 1.5rem;
   border-radius: 1rem;
-  border: solid white 3px;
-  color: white;
-  background: none;
-  box-shadow: 5px 5px 0px white;
+  border: solid #ffdd00bd 3px;
+  color: black;
+  background: #ffdd00;
+  box-shadow: 7px 7px 0px #ffdd008c;
 }
 
 button:active {
-  transition: all 0.1s ease;
-  box-shadow: 0px 0px 0px white;
-  transform: translate(5px, 5px);
+  transition: all 0.15s ease;
+  box-shadow: 0px 0px 0px #ffdd00;
+  transform: translate(7px, 7px);
 }
